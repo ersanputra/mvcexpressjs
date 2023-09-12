@@ -1,0 +1,32 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "start:express": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersanputra/mvcexpressjs.git"
+  },
+  "keywords": [
+    "akademik"
+  ],
+  "author": "ersancakra@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersanputra/mvcexpressjs/issues"
+  },
+  "homepage": "https://github.com/ersanputra/mvcexpressjs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
